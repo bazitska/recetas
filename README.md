@@ -9,6 +9,9 @@ Los objetivos del proyecto eran:<br>
 Para este proyecto se ha trabajado con el CPT <b>receta</b>.
 <br>
 <br>
+<b>Requerimientos</b><br><br>
+- Requiere tener instalado el plugin de <a href="https://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields PRO</a>.
+<br><br>
 <b>Posibles mejoras</b><br><br>
 <i>1. Añadir páginación</i><br>
 <i>2. Añadir animaciones</i>
