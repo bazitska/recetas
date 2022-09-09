@@ -14,6 +14,32 @@
         Text Domain: recetas
     */
 
+
+    // Comprueba si se tiene instalado el plugin de Advanced Custom Fields PRO
+
+    add_action('admin_init', 'comprobar_plugins');
+
+    function comprobar_plugins(){
+
+        if (is_admin() && current_user_can( 'activate_plugins') && !is_plugin_active( 'advanced-custom-fields-pro/acf.php')) {
+
+            add_action('admin_notices', 'mostrar_aviso_plugins');
+
+            deactivate_plugins(plugin_basename( __FILE__));
+
+            if(isset( $_GET['activate'])) {
+                unset( $_GET['activate']);
+            }
+        }
+    }
+
+    function mostrar_aviso_plugins() {
+        echo "<div class='error'>
+            <p>Para activar el plugin de <b>Entidades Recetas</b>, debe de tener instalado e activado el plugin de <a href='https://www.advancedcustomfields.com/'>Advanced Custom Fields PRO</a></p>
+        </div>";
+    }
+
+
     // Creamos el CPT de Recetas
     function crear_cpt_receta(){
 
