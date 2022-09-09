@@ -10,8 +10,8 @@ Para este proyecto se ha trabajado con el CPT <b>receta</b>.
 <br>
 <br>
 <b>Posibles mejoras</b><br><br>
-1. <i>Añadir páginación</i><br>
-2. <i>Añadir animaciones</i>
+<i>1. Añadir páginación</i><br>
+<i>2. Añadir animaciones</i>
 <br>
 <br>
 💛
