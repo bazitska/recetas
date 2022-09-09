@@ -12,6 +12,8 @@ Para este proyecto se ha trabajado con el CPT <b>receta</b>.
 <b>Requerimientos</b><br><br>
 - Requiere tener instalado el plugin de <a href="https://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields PRO</a>.
 <br><br>
+<i>* Ver apartado de la Wiki del repositorio (Instalación Advanced Custom Fields PRO)</i>
+<br><br>
 <b>Posibles mejoras</b><br><br>
 <i>1. Añadir páginación</i><br>
 <i>2. Añadir animaciones</i>
