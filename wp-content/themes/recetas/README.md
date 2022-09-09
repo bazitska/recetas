@@ -1,1 +1,2 @@
 # Recetas
+Plantilla recetas
