@@ -9,8 +9,8 @@ Los objetivos del proyecto eran:<br>
 Para este proyecto se ha trabajado con el CPT <b>receta</b>.
 <br>
 <br>
-# Posibles mejoras
-1. Añadir páginación
+# Posibles mejoras<br>
+1. Añadir páginación<br>
 2. Añadir animaciones
 <br>
 <br>
