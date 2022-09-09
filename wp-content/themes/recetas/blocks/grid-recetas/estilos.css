@@ -1,0 +1,50 @@
+.recetas-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    gap: var(--measure-2);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.tarjeta-grid-receta{
+    border: 2px solid var(--negro);
+    border-radius: var(--border-radius);
+}
+
+.tarjeta-grid-receta h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--font-size-3);
+}
+
+.contenido-tarjeta-grid-receta{
+    padding: var(--measure-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--measure-1);
+}
+
+.cabecera-tarjeta-grid-receta{
+    width: 100%; 
+    height: 200px;
+}
+.cabecera-tarjeta-grid-receta img{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 10px 10px 0 0px;
+}
+
+.tiempo-elaboracion-tarjeta-grid-receta{
+    font-size: var(--font-size-1);
+}
+.contenedor-grid-recetas{
+    margin: var(--measure-1) auto;
+}
+.contenedor-grid-recetas h2{
+    margin-bottom: var(--measure-1);
+}
