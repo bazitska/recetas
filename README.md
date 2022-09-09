@@ -10,3 +10,4 @@ Para este proyecto se ha trabajado con el CPT <b>receta</b>.
 <br>
 <br>
 💛
+![chrome_bCaGLK9Bji](https://user-images.githubusercontent.com/45423467/189323159-e6e251c7-2ae1-4da2-93c0-bb26f5e185b8.gif)
